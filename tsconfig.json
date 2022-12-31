@@ -1,0 +1,28 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es5",
+		"lib": [
+			"dom",
+			"es2015"
+		],
+		"moduleResolution": "node",
+		"jsx": "react",
+		"sourceMap": true,
+		"declaration": true,
+		"outDir": "./lib",
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noFallthroughCasesInSwitch": true,
+		"experimentalDecorators": true
+	},
+	"files": [
+		"./src/adaptivecards.ts"
+	],
+	"exclude": [
+		"node_modules",
+		"**/*.spec.ts"
+	]
+}

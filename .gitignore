@@ -1,0 +1,9 @@
+build/
+lib/
+dist/
+node_modules/
+coverage/
+.DS_Store
+
+# CSS files should be generated from .scss, no checking in .css files
+*.css* 
